@@ -1,0 +1,12 @@
+[
+	{
+		"idFacturas" : 1,
+		"Cantidad" : 20,
+		"valor total" : 220
+	},
+	{
+		"idFacturas" : 2,
+		"Cantidad" : 15,
+		"valor total" : 600
+	}
+]

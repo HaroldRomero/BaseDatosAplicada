@@ -1,0 +1,20 @@
+[
+	{
+		"idProducto" : 1,
+		"NombreProducto" : "roscon",
+		"Caracteristicas" : "dulce",
+		"ValorUnitario" : 300
+	},
+	{
+		"idProducto" : 2,
+		"NombreProducto" : "milhoja",
+		"Caracteristicas" : "postre",
+		"ValorUnitario" : 2000
+	},
+	{
+		"idProducto" : 3,
+		"NombreProducto" : "Pan rollo",
+		"Caracteristicas" : "salado",
+		"ValorUnitario" : 200
+	}
+]
