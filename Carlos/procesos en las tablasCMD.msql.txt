@@ -25,7 +25,3 @@ DROP TABLE nombre_tabla
 //agregar columna
 
 ALTER TABLE clientes ADD psww int;
-
-//cambiar tipo de dato
-
-ALTER TABLE Customer MODIFY Addr char(30);
