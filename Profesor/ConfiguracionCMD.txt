@@ -1,0 +1,14 @@
+
+
+
+1ro se instalo Xamp (en mi caso)
+2do se configuro el path donde tenemos la carpeta bin de Mysql en el panel de control en la opcion 
+-sistemas y seguridad
+-sistema
+-configuracion avanzada del sistema
+para evitar todos estos pasos solo es necesario usar windows + pausa
+
+luego variables de entorno y alli se configura el path 
+
+3ro se ejecuta el comando
+$mysql -u root -p para acceder a mysql desde consola
