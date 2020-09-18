@@ -1,27 +1,33 @@
+
+
 $mysql -u usuario -p
+
 CREATE DATABASE alumnos;
+
 USE alumnos;
+
 CREATE TABLE alumnos (nombre VARCHAR(30), edad INT);
 
-// para ver la database
+// para ver la tabla con detalles
 DESCRIBE alumnos; 
 
 //insertar datos
-
 INSERT INTO alumnos VALUES ('Juan Marquez', 22);
-
 INSERT INTO alumnos VALUES ('Carlos Cumaco', 19);
 
 // ver tabla 
 SELECT * FROM alumnos;
 
 //cambiar nombre de tabla
-
 RENAME alumnos edad TO clientes; 
 
 //eliminar tabla
 DROP TABLE nombre_tabla
 
 //agregar columna
-
 ALTER TABLE clientes ADD psww int;
+
+
+//mostrar las tablas disponibles
+SHOW FULL TABLES FROM mi_base_de_datos
+
