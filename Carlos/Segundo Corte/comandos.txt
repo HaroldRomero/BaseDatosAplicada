@@ -1,0 +1,15 @@
+ CREATE DATABASE eliminarTabla;
+
+CREATE TABLE prueba1 (
+nombre VARCHAR(30), 
+edad INT);
+
+CREATE TABLE Customer
+(SID integer,
+Last_Name varchar(30),
+First_Name varchar(30),
+PRIMARY KEY (SID));
+
+rename table customer to custom; 
+truncate table custom;
+drop table prueba1; 
