@@ -34,8 +34,3 @@ CREATE TABLE PDV
 Nombre VARCHAR(30) NOT NULL,
 ValorUnitario INT not NULL
 );
-
-INSERT INTO Clientes
-VALUES ('1233451231', 'Francy', 'montero', '3203564432', 'carrera 112 calle 42');
-INSERT INTO Clientes
-VALUES ('76859476945', 'Manuel', 'Chacon', '3204564432', 'carrera 12 calle 54')
